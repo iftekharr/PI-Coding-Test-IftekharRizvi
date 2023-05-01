@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "be99654b-ecc3-4999-a7e6-dd55350086ea",
+		"name": "FlightReservation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20767960",
+		"_collection_link": "https://universal-resonance-432883.postman.co/workspace/DatingApp~32313996-e6db-4001-9fb0-cd47ab9204e4/collection/20767960-be99654b-ecc3-4999-a7e6-dd55350086ea?action=share&creator=20767960&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Generate JWT Token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"test@gmail.com\",\r\n    \"password\": \"test#123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5123/api/auth",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5123",
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SearchFlights",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"departureLocation\": \"WIC\",\r\n    \"arrivalLocation\": \"PKK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5123/api/searchflight/search",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5123",
+					"path": [
+						"api",
+						"searchflight",
+						"search"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

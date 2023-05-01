@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Peerislands.FlightReservation.Web", "Peerislands.FlightReservation.Web", "{73687ECE-BC68-4A4F-A32F-236F5A8D3232}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Peerislands.FlightReservation.Contract", "Peerislands.FlightReservation.Contract", "{A73800E2-ACB4-48F0-ADB4-B3344D2ACEAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Peerislands.FlightReservation.DataContract", "Peerislands.FlightReservation.DataContract", "{DD76E797-04BA-4F27-8ADB-B3C4389F880E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Peerislands.FlightReservation.Interactor", "Peerislands.FlightReservation.Interactor", "{C6C94B03-EC04-46A5-8944-8BDE40D9D9DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Peerislands.FlightReservation.Services", "Peerislands.FlightReservation.Services", "{685BAFE1-B545-466C-AD5A-86DD7B593B94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peerislands.FlightReservation.Contract", "Peerislands.FlightReservation.Contract\Peerislands.FlightReservation.Contract.csproj", "{8E426729-1159-4F42-B6AD-63F486C6982E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peerislands.FlightReservation.Web", "Peerislands.FlightReservation.Web\Peerislands.FlightReservation.Web.csproj", "{E663CE02-32DA-4CEE-A9AD-7EDF15DDD838}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peerislands.FlightReservation.DataContract", "Peerislands.FlightReservation.DataContract\Peerislands.FlightReservation.DataContract.csproj", "{5A668D2C-0BE9-4B0B-BCA7-2923D395D091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peerislands.FlightReservation.Interactor", "Peerislands.FlightReservation.Interactor\Peerislands.FlightReservation.Interactor.csproj", "{E1AF32C3-7721-4C72-886B-0CA650D34B2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peerislands.FlightReservation.Services", "Peerislands.FlightReservation.Services\Peerislands.FlightReservation.Services.csproj", "{53EFE202-601A-4E4A-8285-EEA2FF859D1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E426729-1159-4F42-B6AD-63F486C6982E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E426729-1159-4F42-B6AD-63F486C6982E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E426729-1159-4F42-B6AD-63F486C6982E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E426729-1159-4F42-B6AD-63F486C6982E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E663CE02-32DA-4CEE-A9AD-7EDF15DDD838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E663CE02-32DA-4CEE-A9AD-7EDF15DDD838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E663CE02-32DA-4CEE-A9AD-7EDF15DDD838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E663CE02-32DA-4CEE-A9AD-7EDF15DDD838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A668D2C-0BE9-4B0B-BCA7-2923D395D091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A668D2C-0BE9-4B0B-BCA7-2923D395D091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A668D2C-0BE9-4B0B-BCA7-2923D395D091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A668D2C-0BE9-4B0B-BCA7-2923D395D091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1AF32C3-7721-4C72-886B-0CA650D34B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1AF32C3-7721-4C72-886B-0CA650D34B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1AF32C3-7721-4C72-886B-0CA650D34B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1AF32C3-7721-4C72-886B-0CA650D34B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EFE202-601A-4E4A-8285-EEA2FF859D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EFE202-601A-4E4A-8285-EEA2FF859D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EFE202-601A-4E4A-8285-EEA2FF859D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EFE202-601A-4E4A-8285-EEA2FF859D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E426729-1159-4F42-B6AD-63F486C6982E} = {A73800E2-ACB4-48F0-ADB4-B3344D2ACEAD}
+		{E663CE02-32DA-4CEE-A9AD-7EDF15DDD838} = {73687ECE-BC68-4A4F-A32F-236F5A8D3232}
+		{5A668D2C-0BE9-4B0B-BCA7-2923D395D091} = {DD76E797-04BA-4F27-8ADB-B3C4389F880E}
+		{E1AF32C3-7721-4C72-886B-0CA650D34B2D} = {C6C94B03-EC04-46A5-8944-8BDE40D9D9DF}
+		{53EFE202-601A-4E4A-8285-EEA2FF859D1C} = {685BAFE1-B545-466C-AD5A-86DD7B593B94}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0280F30C-418C-4B4E-B5AE-E9222BFE91A8}
+	EndGlobalSection
+EndGlobal
