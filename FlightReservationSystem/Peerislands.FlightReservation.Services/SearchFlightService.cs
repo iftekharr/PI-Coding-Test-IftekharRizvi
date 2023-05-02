@@ -1,12 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Peerislands.FlightReservation.Contract.Interfaces;
+﻿using Peerislands.FlightReservation.Contract.Interfaces;
 using Peerislands.FlightReservation.DataContract.Messages;
 using Peerislands.FlightReservation.DataContract.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Peerislands.FlightReservation.Services
 {

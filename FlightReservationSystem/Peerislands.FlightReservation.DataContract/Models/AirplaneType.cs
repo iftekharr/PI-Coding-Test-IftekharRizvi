@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Peerislands.FlightReservation.DataContract.Models;
+﻿namespace Peerislands.FlightReservation.DataContract.Models;
 
 public partial class AirplaneType
 {

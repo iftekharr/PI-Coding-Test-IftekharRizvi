@@ -1,10 +1,5 @@
 ﻿using Peerislands.FlightReservation.Contract.Interfaces;
 using Peerislands.FlightReservation.DataContract.Messages;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Peerislands.FlightReservation.Interactor
 {

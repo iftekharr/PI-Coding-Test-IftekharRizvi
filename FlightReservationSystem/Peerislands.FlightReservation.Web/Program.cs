@@ -2,7 +2,6 @@
 using Microsoft.IdentityModel.Tokens;
 using Peerislands.FlightReservation.Web.Extensions;
 using System.Text;
-using Peerislands.FlightReservation.Web.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 

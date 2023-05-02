@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
-using Peerislands.FlightReservation.Contract.Interfaces;
+﻿using Peerislands.FlightReservation.Contract.Interfaces;
 using Peerislands.FlightReservation.DataContract.Models;
 
 namespace Peerislands.FlightReservation.Interactor
