@@ -8,5 +8,6 @@
         public TimeSpan? DepartureTime { get; set; }
         public TimeSpan? ArrivalTime { get; set; }
         public string? AirLineName { get; set; }
+        public string? Message { get; set; }
     }
 }

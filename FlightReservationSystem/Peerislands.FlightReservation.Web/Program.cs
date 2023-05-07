@@ -46,4 +46,11 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.UseSwagger();
+
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Flight Reservation API V1");
+});
+
 app.Run();

@@ -43,7 +43,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"departureLocation\": \"WIC\",\r\n    \"arrivalLocation\": \"PKK\"\r\n}",
+					"raw": "{\r\n    \"departureLocation\": \"WIC\",\r\n    \"arrivalLocation\": \"PKK\",\r\n    \"departureDate\": \"2023-05-15T17:16:40\",\r\n    \"numberOfPassengers\": 2\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -61,6 +61,36 @@
 						"api",
 						"searchflight",
 						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BookFlight",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"passportNo\": \"P139109\",\r\n    \"flightNo\": \"UN1017\",\r\n    \"firstName\": \"syed Iftekhar Hussain\",\r\n    \"lastName\": \"Rizvi\",\r\n    \"birthdate\": \"1991-10-09T00:00:00\",\r\n    \"sex\": \"M\",\r\n    \"street\": \"Kasar Sai Dam\",\r\n    \"city\": \"Pune\",\r\n    \"zip\": 4654,\r\n    \"country\": \"India\",\r\n    \"emailAddress\": \"test@airtelkol.com\",\r\n    \"telephoneNo\": \"03022 807190\",\r\n    \"seatNo\": \"24C\",\r\n    \"price\": 173.10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5123/api/bookflight/book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5123",
+					"path": [
+						"api",
+						"bookflight",
+						"book"
 					]
 				}
 			},

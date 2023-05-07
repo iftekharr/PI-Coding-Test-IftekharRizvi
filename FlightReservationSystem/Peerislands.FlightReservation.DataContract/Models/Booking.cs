@@ -11,6 +11,7 @@ public partial class Booking
     public int PassengerId { get; set; }
 
     public decimal Price { get; set; }
+    public string OrderId { get; set; }
 
     public virtual Flight Flight { get; set; } = null!;
 

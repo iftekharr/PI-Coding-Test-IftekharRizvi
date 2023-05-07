@@ -194,6 +194,7 @@ public partial class AirportDbContext : DbContext
 
             entity.Property(e => e.BookingId).HasColumnName("booking_id");
             entity.Property(e => e.FlightId).HasColumnName("flight_id");
+            entity.Property(e => e.OrderId).HasColumnName("OrderId");
             entity.Property(e => e.PassengerId).HasColumnName("passenger_id");
             entity.Property(e => e.Price)
                 .HasColumnType("decimal(10, 2)")

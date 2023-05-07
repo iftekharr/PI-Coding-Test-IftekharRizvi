@@ -10,10 +10,15 @@ namespace Peerislands.FlightReservation.Web.Extensions
         public static IServiceCollection RegisterServices(this IServiceCollection services)
         {
             services.AddDbContext<AirportDbContext>();
+
             services.AddSingleton<IAuthInteractor, AuthInteractor>();
             services.AddSingleton<IAuthService, AuthService>();
-            services.AddScoped<ISearchFlightInteractor, SearchFlightInteractor>();
-            services.AddScoped<ISearchFlightService, SearchFlightService>();
+
+            services.AddTransient<ISearchFlightInteractor, SearchFlightInteractor>();
+            services.AddTransient<ISearchFlightService, SearchFlightService>();
+
+            services.AddTransient<IBookFlightInteractor, BookFlightInteractor>();
+            services.AddTransient<IBookFlightService, BookFlightService>();
 
             return services;
         }
