@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peerislands.FlightReservati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peerislands.FlightReservation.Services", "Peerislands.FlightReservation.Services\Peerislands.FlightReservation.Services.csproj", "{53EFE202-601A-4E4A-8285-EEA2FF859D1C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Peerislands.FlightReservation.UnitTests", "Peerislands.FlightReservation.UnitTests", "{C2E7CE06-9997-468B-9842-DE7612AD67A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peerislands.FlightReservation.UnitTests", "Peerislands.FlightReservation.UnitTests\Peerislands.FlightReservation.UnitTests.csproj", "{CD286D7F-A0CD-461F-80EF-D918392500C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{53EFE202-601A-4E4A-8285-EEA2FF859D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53EFE202-601A-4E4A-8285-EEA2FF859D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53EFE202-601A-4E4A-8285-EEA2FF859D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD286D7F-A0CD-461F-80EF-D918392500C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD286D7F-A0CD-461F-80EF-D918392500C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD286D7F-A0CD-461F-80EF-D918392500C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD286D7F-A0CD-461F-80EF-D918392500C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{5A668D2C-0BE9-4B0B-BCA7-2923D395D091} = {DD76E797-04BA-4F27-8ADB-B3C4389F880E}
 		{E1AF32C3-7721-4C72-886B-0CA650D34B2D} = {C6C94B03-EC04-46A5-8944-8BDE40D9D9DF}
 		{53EFE202-601A-4E4A-8285-EEA2FF859D1C} = {685BAFE1-B545-466C-AD5A-86DD7B593B94}
+		{CD286D7F-A0CD-461F-80EF-D918392500C3} = {C2E7CE06-9997-468B-9842-DE7612AD67A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0280F30C-418C-4B4E-B5AE-E9222BFE91A8}

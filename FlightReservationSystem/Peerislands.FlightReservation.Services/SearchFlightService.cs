@@ -40,7 +40,7 @@ namespace Peerislands.FlightReservation.Services
         private async Task<string> GetAirlineName(short airlineId)
         {
             var airline = await _context.Airlines.FindAsync(airlineId);
-            return airline.Airlinename = null!;
+            return airline.Airlinename;
         }
 
         private static SearchFlightResponse ToSearchFlightResponse(string? fromOriginAirport, string? toDestinationAirport, string? flightNo, string? airlineName, TimeSpan? departureTime, TimeSpan? arrivalTime)
